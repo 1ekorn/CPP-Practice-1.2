@@ -3,19 +3,20 @@
 template<typename T>
 int partition(T arr[], int min, int max)
 {
-	T pivot = arr[max-1];
-
+	T pivot = arr[max];
 	int i = min - 1;
-	
-	for (int j = min; j <= (max - 1); j++)
+
+	for (int j = min; j < max; j++)
 	{
-		if (arr[j] <= pivot) {
+		if (arr[j] <= pivot)
+		{
 			i++;
-			std::swap(arr[i], arr[j]);
+			std::swap(arr[j], arr[i]);
 		}
 	}
-	std::swap(arr[max - 1], arr[i + 1]);
-	
+
+	std::swap(arr[i + 1], arr[max]);
+
 	return i + 1;
 }
 
@@ -29,6 +30,7 @@ void quickSort(T arr[], int min, int max)
 		quickSort(arr, min, pivot - 1);
 	}
 }
+
 template<typename T>
 void printArr(T arr[], int size)
 {
