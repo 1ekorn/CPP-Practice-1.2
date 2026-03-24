@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Quick Sort/Quick Sort.vcxproj" Id="481a2aa2-c777-48c9-afb9-86eea8918e6a" />
   <Project Path="Recursion 1.0/Recursion 1.0.vcxproj" Id="bba97ffc-32eb-475f-8b59-5a847a72d625" />
 </Solution>
