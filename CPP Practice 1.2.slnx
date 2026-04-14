@@ -3,6 +3,13 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Binary Search/Binary Search.vcxproj" Id="bc8f9899-97fd-4204-9bfd-3eeaaa5d8687" />
+  <Project Path="Pointer 1.0/Pointer 1.0.vcxproj" Id="92d2a227-83d4-4d54-a072-d871aeb87e7f" />
+  <Project Path="Pointer 1.1/Pointer 1.1.vcxproj" Id="6d897004-fb47-4ace-9b5a-bbd4082d2de6" />
+  <Project Path="pointer-practice-part1/pointer-practice-part1.vcxproj" Id="b495a19b-2a8e-4654-b17f-2953bb695316" />
+  <Project Path="pointer-practice-part2/pointer-practice-part2.vcxproj" Id="d06d725d-72b2-4563-8de7-575bc67c320c" />
+  <Project Path="pointer-practice-part3/pointer-practice-part3.vcxproj" Id="87ae9dd0-a78a-4458-9b3a-25df06651931" />
+  <Project Path="qsort/qsort.vcxproj" Id="75759bdd-924f-40f2-82b6-d098fc293e17" />
   <Project Path="Quick Sort/Quick Sort.vcxproj" Id="481a2aa2-c777-48c9-afb9-86eea8918e6a" />
   <Project Path="Recursion 1.0/Recursion 1.0.vcxproj" Id="bba97ffc-32eb-475f-8b59-5a847a72d625" />
 </Solution>
